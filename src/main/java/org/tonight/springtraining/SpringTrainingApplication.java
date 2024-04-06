@@ -12,13 +12,16 @@ public class SpringTrainingApplication {
 
     public static void main(String[] args) {
        // ApplicationContext appContext = new ClassPathXmlApplicationContext("newPractice.xml");
-        ApplicationContext appContext = new AnnotationConfigApplicationContext(employeeConfig.class);
-        employeeClass empClass = appContext.getBean(employeeClass.class);
-        empClass.display();
+//        ApplicationContext appContext = new AnnotationConfigApplicationContext(employeeConfig.class);
+//        employeeClass empClass = appContext.getBean(employeeClass.class);
+//        empClass.display();
+//
+//        employeeClassSetterType empSetter = appContext.getBean(employeeClassSetterType.class);
+//        empSetter.displaySetterType();
+        ApplicationContext context = SpringApplication.run(SpringTrainingApplication.class, args);
 
-        employeeClassSetterType empSetter = appContext.getBean(employeeClassSetterType.class);
-        empSetter.displaySetterType();
-        //SpringApplication.run(SpringTrainingApplication.class, args);
+        PayRoll payRoll = context.getBean(PayRoll.class);
+        payRoll.startingPayRoll();
     }
 
 }
