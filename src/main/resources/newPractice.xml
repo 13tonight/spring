@@ -2,5 +2,42 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--<bean class="org.tonight.springtraining.employeeClass" name="empClass">-->
+<!--    <constructor-arg name="firstName" value="haswanth"/>-->
+<!--    <constructor-arg name="lastName" value="gurram"/>-->
+<!--    <constructor-arg name="salary" value="3300"/>-->
+<!--    <constructor-arg name="companyName" value="chemtex"/>-->
+<!--    <constructor-arg name="phoneNumbers">-->
+<!--        <list>-->
+<!--            <value>7892247582947</value>-->
+<!--            <value>64724648938</value>-->
+<!--            <value>634383458348</value>-->
+<!--        </list>-->
+<!--    </constructor-arg>-->
+<!--    <constructor-arg name="companyAddress" ref="empAddress"/>-->
+<!--</bean>-->
+<!--    <bean class="org.tonight.springtraining.address" name="empAddress">-->
+<!--        <constructor-arg name="city" value="Port Arthur"/>-->
+<!--        <constructor-arg name="postalCode" value="77642"/>-->
 
+<!--    </bean>-->
+<!--    <bean class="org.tonight.springtraining.employeeClassSetterType" name="empClassSetterType">-->
+<!--        <property name="firstName" value="vishnu"/>-->
+<!--        <property name="lastName" value="varma"/>-->
+<!--        <property name="salary" value="865987"/>-->
+<!--        <property name="companyName" value="TopMNC"/>-->
+<!--        <property name="phoneNumbers">-->
+<!--            <list>-->
+<!--                <value>879459742765</value>-->
+<!--                <value>29837456289745</value>-->
+<!--                <value>987456298745</value>-->
+<!--            </list>-->
+<!--        </property>-->
+<!--        <property name="companyAddress" ref="empAddressSetter"/>-->
+<!--    </bean>-->
+<!--    <bean class="org.tonight.springtraining.addressSetterType" name="empAddressSetter">-->
+<!--        <property name="city" value="Dallas"/>-->
+<!--        <property name="postalCode" value="66978"/>-->
+
+<!--    </bean>-->
 </beans>

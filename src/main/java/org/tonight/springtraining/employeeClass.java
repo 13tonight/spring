@@ -18,55 +18,9 @@ public class employeeClass {
         this.phoneNumbers = phoneNumbers;
         this.companyAddress = companyAddress;
     }
-
-    public String getFirstName() {
-        return firstName;
+public void display(){
+    System.out.println("First name:"+ firstName +"  Last Name: "+ lastName +" Salary: "+ salary + " Company Name: " + companyName + " List Phone Numbers: " + phoneNumbers + " Company Address: " + companyAddress );
     }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public Integer getSalary() {
-        return salary;
-    }
-
-    public void setSalary(Integer salary) {
-        this.salary = salary;
-    }
-
-    public String getCompanyName() {
-        return companyName;
-    }
-
-    public void setCompanyName(String companyName) {
-        this.companyName = companyName;
-    }
-
-    public List<String> getPhoneNumbers() {
-        return phoneNumbers;
-    }
-
-    public void setPhoneNumbers(List<String> phoneNumbers) {
-        this.phoneNumbers = phoneNumbers;
-    }
-
-    public address getCompanyAddress() {
-        return companyAddress;
-    }
-
-    public void setCompanyAddress(address companyAddress) {
-        this.companyAddress = companyAddress;
-    }
-
     @Override
     public String toString() {
         return "employeeClass{" +
